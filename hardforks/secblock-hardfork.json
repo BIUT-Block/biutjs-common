@@ -1,0 +1,23 @@
+{
+  "name": "secblock-hardfork",
+  "comment": "Test Hardfork for SECBlock",
+  "eip": {
+    "url": "",
+    "status": ""
+  },
+  "gasConfig": {},
+  "gasPrices": {
+    "sload": {
+      "v": 1,
+      "d": "test"
+    },
+    "call": {
+      "v": 1,
+      "d": "test"
+    }
+  },
+  "vm": {},
+  "pow": {},
+  "casper": {},
+  "sharding": {}
+}

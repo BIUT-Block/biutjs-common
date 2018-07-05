@@ -1,0 +1,25 @@
+{
+  "name": "sec",
+  "chainId": 1,
+  "networkId": 1,
+  "comment": "SEC Blockchain test network",
+  "url": "https://kovan-testnet.github.io/website/",
+  "genesis": {
+    "hash": "5f213ac06cfe4a82e167aa3ea430e520be99dcedb4ab47fd8f668448708e34c1",
+    "gasLimit": 8888888,
+    "difficulty": 188888,
+    "nonce": "0x0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000",
+    "extraData": "",
+    "stateRoot": ""
+  },
+  "hardforks": [],
+  "bootstrapNodes": [
+    {
+      "ip": "18.185.61.169",
+      "port": 13331,
+      "id": "",
+      "location": "Frankfurt",
+      "comment": "Test Bootnode"
+    }
+  ]
+}

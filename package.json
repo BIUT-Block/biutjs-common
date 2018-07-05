@@ -1,0 +1,44 @@
+{
+  "name": "secjs-common",
+  "version": "0.0.1",
+  "description": "Common SECBlock Resources, define genesis Block and init Informations",
+  "main": "index.js",
+  "scripts": {
+    "lint": "standard"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/SEC-Block/secjs-common.git"
+  },
+  "keywords": [
+    "secblock",
+    "secjs",
+    "constants",
+    "parameters",
+    "genesis",
+    "networks",
+    "bootstrap"
+  ],
+  "nyc": {
+    "exclude": "tests/*.js" 
+  },
+  "author": "abysmli",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/SEC-Block/secjs-common/issues"
+  },
+  "devDependencies": {
+    "coveralls": "^3.0.1",
+    "documentation": "^6.3.2",
+    "nyc": "^11.7.1",
+    "standard": "^11.0.1",
+    "tape": "^4.2.0"
+  },
+  "maintainers": [
+    {
+      "name": "Yuan Li",
+      "email": "abysmli@gmail.com"
+    }
+  ],
+  "dependencies": {}
+}
