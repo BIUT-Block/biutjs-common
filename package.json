@@ -1,5 +1,5 @@
 {
-  "name": "secjs-common",
+  "name": "@sec-block/secjs-common",
   "version": "0.0.1",
   "description": "Common SECBlock Resources, define genesis Block and init Informations",
   "main": "index.js",
