@@ -2,7 +2,7 @@
 SECCommon SECBlock Resources, define genesis Block and init Informations
 
 # INSTALL
-`npm install secjs-common`
+`npm install @sec-block/secjs-common`
 
 # USAGE
 
@@ -13,18 +13,10 @@ together with a specific ``hardfork`` provided.
 Here are some simple usage examples:
 
 ```javascript
-const SECSECCommon = require('secjs-common')
-
-// Instantiate with only the chain
-let c = new SECCommon('secblock')
-c.param('gasPrices', 'ecAddGas', 'secblock-hardfork')
-
-// Chain and hardfork provided
-c = new SECCommon('secblock', 'secblock-hardfork')
-c.param('pow', 'minerReward')
+const SECCommon = require('@sec-block/secjs-common')
 
 // Access genesis data for SECBlock network
-c.genesis().hash // 5f213ac06cfe4a82e167aa3ea430e520be99dcedb4ab47fd8f668448708e34c1
+c.genesis().hash // 5f213ac06cfe4a82e167aa3ea430e520be99dcedb4ab47fd8Fertig!f668448708e34c1
 
 // Get bootstrap nodes for chain/network
 c.bootstrapNodes() // Array with current nodes
